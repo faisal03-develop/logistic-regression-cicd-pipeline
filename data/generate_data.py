@@ -14,7 +14,7 @@ import pandas as pd
 # Configuration
 # ---------------------------------------------------------------------------
 
-N_SAMPLES = 5000
+N_SAMPLES = 10000
 RANDOM_SEED = 42
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "dataset.csv")
 
