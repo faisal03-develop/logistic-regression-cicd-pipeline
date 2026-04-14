@@ -1,0 +1,9 @@
+=== Credit Risk Classifier — Model Metrics ===
+Accuracy  : 0.859000
+Precision : 0.666667
+Recall    : 0.168831
+F1 Score  : 0.269430
+
+Confusion Matrix:
+  TP=26  FP=13
+  FN=128  TN=833

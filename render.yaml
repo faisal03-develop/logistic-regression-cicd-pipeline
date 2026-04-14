@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: credit-risk-classifier
+    env: docker
+    region: oregon
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: FLASK_DEBUG
+        value: false
+    healthCheckPath: /health
+    autoDeploy: false   # Triggered by GitHub Actions CI/CD on main branch
